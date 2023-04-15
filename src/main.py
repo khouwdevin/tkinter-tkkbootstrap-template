@@ -15,7 +15,7 @@ class App(ttk.Window):
         self.minsize(600, 300)
 
         container = ttk.Frame(self)
-        container.pack(side = "top", fill = "both", expand = 1)
+        container.pack(side = "bottom", fill = "both", expand = 1)
   
         container.grid_rowconfigure(0, weight = 1)
         container.grid_columnconfigure(0, weight = 1)
