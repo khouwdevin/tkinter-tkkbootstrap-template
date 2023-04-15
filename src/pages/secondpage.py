@@ -6,7 +6,7 @@ class SecondPage(ttk.Frame):
         super().__init__(parent)
 
         label = ttk.Label(self, text ="Second Page", font = "TimesNewRoman 18 bold")
-        label.grid(pady = 10)
+        label.place(anchor = "center", relx = 0.5, rely = 0.2)
 
         button = ttk.Button(self, text = "Change Page", bootstyle=(INFO, OUTLINE), command = lambda:controller.change_page(0))
-        button.grid(pady = 10)
+        button.place(anchor = "center", relx = 0.5, rely = 0.5)
