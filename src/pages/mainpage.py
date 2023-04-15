@@ -8,5 +8,5 @@ class MainPage(ttk.Frame):
         label = ttk.Label(text ="Main Page", font = "TimesNewRoman 18 bold")
         label.pack(pady = 10)
 
-        self.button = ttk.Button(text = "Download", bootstyle=(INFO, OUTLINE))
+        self.button = ttk.Button(text = "Button", bootstyle=(INFO, OUTLINE))
         self.button.pack(pady = 10)
